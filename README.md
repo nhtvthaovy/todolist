@@ -16,3 +16,4 @@
 - ⚡️ **Vite** (build tool)
 - 🎨 **CSS Modules**
 - 📦 Quản lý state bằng React hooks (useState, useEffect)
+![Ảnh minh họa](https://raw.githubusercontent.com/nhtvthaovy/todolist/main/public/image.png)
