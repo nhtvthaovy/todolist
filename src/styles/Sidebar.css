@@ -1,0 +1,93 @@
+.sidebar {
+  width: 280px;
+  background-color: pink;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* Thêm các dòng này */
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.sidebar-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 70%;
+  margin-bottom: 10px; /* Khoảng cách giữa ảnh và tên */
+  border-color: aliceblue;
+  border-style: solid;
+}
+
+.sidebar-profile h3,
+.sidebar-profile p {
+  margin: 0; /* Xóa margin mặc định */
+  padding: 0;
+  line-height: 1.2; /* Điều chỉnh khoảng cách dòng nếu cần */
+  font-size: 15px; /* Tùy chỉnh cỡ chữ nếu cần */
+  color: white;
+}
+
+.sidebar-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-nav li {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 7px; /* Khoảng cách giữa các mục */
+}
+
+.sidebar-nav li svg {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.sidebar-nav li:hover {
+  background-color: white;
+  color: pink;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.logout-btn {
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  background-color: white;
+  color: pink;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ffe4e4;
+  color: #d6336c;
+}
+

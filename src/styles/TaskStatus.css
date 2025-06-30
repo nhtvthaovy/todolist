@@ -1,0 +1,67 @@
+.task-status-container {
+  padding: 20px;
+  background-color: #f3fafe;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.task-status-title {
+  color: #f26d6d;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+}
+
+.task-status-icon {
+  color: #ccc;}
+
+
+.status-charts {
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.donut {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.donut-chart {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.chart-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.chart-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}

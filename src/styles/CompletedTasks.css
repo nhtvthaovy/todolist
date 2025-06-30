@@ -1,0 +1,103 @@
+.completed-tasks {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.completed-icon {
+  color: #ccc;
+}
+
+.completed-tasks h3 {
+  color: #f26d6d;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.completed-tasks ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.completed-tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f3fafe;
+  transition: background 0.2s ease;
+}
+
+.completed-tasks li:hover {
+  background-color: #fff0f5;
+}
+
+/* Nội dung bên trái */
+.completed-tasks li .task-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.completed-tasks li .task-title {
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.completed-tasks li .task-desc {
+  color: #666;
+  font-size: 14px;
+}
+
+.completed-tasks li .task-status {
+  color: green;
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+/* Icon check */
+.check-icon {
+  color: green;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+/* Ảnh bên phải */
+.task-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.status-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;       /* Bên trong trắng */
+  border: 2px solid;             /* Viền có màu, đặt riêng ở từng trạng thái */
+}
+
+.status-indicator.completed {
+  border-color: green;
+}
+
+/* Gói span + title vào 1 dòng */
+.task-title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Khoảng cách giữa vòng và chữ */
+  margin-bottom: 6px;
+}
